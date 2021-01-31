@@ -1,0 +1,48 @@
+body {
+    background-color: fff;
+    color:  #212121;
+    font-family: Roboto, sans-serif;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: Comfortaa;
+ }
+
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+list-style: none;
+}
+html {
+ box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
