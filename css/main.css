@@ -524,7 +524,7 @@ summary {
   .products-item-grey {
     width: calc((100% - 6 * 15px) / 3);
     margin: 15px;
-    width: 330px;
+    width: 329px;
     height: 525px;
     padding-top: 163px;
     padding-left: 44px;
@@ -578,11 +578,12 @@ summary {
 .social-card-section-text {
   display: block;
   font-family: DM Sans;
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.52;
   text-align: center;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   color: #FFFFFF;
   margin-bottom: 30px;
 }
@@ -590,14 +591,15 @@ summary {
   .social-card-section-text {
     margin-bottom: 40px;
     font-size: 14px;
-    line-height: 1.75;
+    line-height: 1.76;
+    letter-spacing: 0.04em;
   }
 }
 @media screen and (min-width: 1200px) {
   .social-card-section-text {
     margin-bottom: 62px;
     font-size: 16px;
-    line-height: 1.75;
+    line-height: 1.76;
   }
 }
 
@@ -619,6 +621,11 @@ summary {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+@media screen and (min-width: 1200px) {
+  .products-card-name {
+    margin-bottom: 32px;
+  }
+}
 
 .soc-media-logo {
   margin-bottom: 30px;
@@ -628,7 +635,7 @@ summary {
 }
 @media screen and (min-width: 1200px) {
   .soc-media-logo {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 }
 
