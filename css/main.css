@@ -58,13 +58,11 @@ a {
   margin-right: auto;
   width: 320px;
 }
-
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
@@ -188,7 +186,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -276,9 +274,9 @@ select {
 Correct the inability to style clickable types in iOS and Safari.
 */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -331,7 +329,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -369,7 +367,7 @@ summary {
 
 /* raleway-700 - latin_cyrillic */
 @font-face {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/raleway-v18-latin_cyrillic-700.eot");
@@ -377,10 +375,9 @@ summary {
   src: local(""), url("../fonts/raleway-v18-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v18-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/raleway-v18-latin_cyrillic-700.woff") format("woff"), url("../fonts/raleway-v18-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/raleway-v18-latin_cyrillic-700.svg#Raleway") format("svg");
   /* Legacy iOS */
 }
-
 /* roboto-regular - latin_cyrillic */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/roboto-v20-latin_cyrillic-regular.eot");
@@ -388,10 +385,9 @@ summary {
   src: local(""), url("../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff"), url("../fonts/roboto-v20-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
-
 /* roboto-500 - latin_cyrillic */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   src: url("../fonts/roboto-v20-latin_cyrillic-500.eot");
@@ -399,10 +395,9 @@ summary {
   src: local(""), url("../fonts/roboto-v20-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-500.woff") format("woff"), url("../fonts/roboto-v20-latin_cyrillic-500.ttf") format("truetype"), url("../fonts/roboto-v20-latin_cyrillic-500.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
-
 /* roboto-700 - latin_cyrillic */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/roboto-v20-latin_cyrillic-700.eot");
@@ -410,10 +405,9 @@ summary {
   src: local(""), url("../fonts/roboto-v20-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-700.woff") format("woff"), url("../fonts/roboto-v20-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/roboto-v20-latin_cyrillic-700.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
-
 /* roboto-900 - latin_cyrillic */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   src: url("../fonts/roboto-v20-latin_cyrillic-900.eot");
@@ -421,7 +415,6 @@ summary {
   src: local(""), url("../fonts/roboto-v20-latin_cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff"), url("../fonts/roboto-v20-latin_cyrillic-900.ttf") format("truetype"), url("../fonts/roboto-v20-latin_cyrillic-900.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
-
 .products {
   padding-top: 121px;
   padding-bottom: 98px;
@@ -432,7 +425,6 @@ summary {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 @media screen and (min-width: 768px) {
   .products-list {
     display: -webkit-box;
@@ -443,7 +435,6 @@ summary {
     margin: -10px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .products-list {
     display: -webkit-box;
@@ -473,7 +464,6 @@ summary {
   padding-bottom: 41px;
   margin-bottom: 120px;
 }
-
 @media screen and (min-width: 768px) {
   .products-item {
     width: calc((100% - 6 * 10px) / 3);
@@ -486,7 +476,6 @@ summary {
     padding-bottom: 40px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .products-item {
     width: calc((100% - 6 * 15px) / 3);
@@ -519,7 +508,6 @@ summary {
   padding-bottom: 41px;
   margin-bottom: 130px;
 }
-
 @media screen and (min-width: 768px) {
   .products-item-grey {
     width: calc((100% - 6 * 10px) / 3);
@@ -532,7 +520,6 @@ summary {
     padding-bottom: 40px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .products-item-grey {
     width: calc((100% - 6 * 15px) / 3);
@@ -563,7 +550,6 @@ summary {
   padding-right: 41px;
   padding-bottom: 41px;
 }
-
 @media screen and (min-width: 768px) {
   .products-item-green {
     width: calc((100% - 6 * 10px) / 3);
@@ -576,7 +562,6 @@ summary {
     padding-bottom: 40px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .products-item-green {
     width: calc((100% - 6 * 15px) / 3);
@@ -591,9 +576,7 @@ summary {
 }
 
 .social-card-section-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   font-family: DM Sans;
   font-weight: bold;
   font-size: 14px;
@@ -603,7 +586,6 @@ summary {
   color: #FFFFFF;
   margin-bottom: 30px;
 }
-
 @media screen and (min-width: 768px) {
   .social-card-section-text {
     margin-bottom: 40px;
@@ -611,7 +593,6 @@ summary {
     line-height: 1.75;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .social-card-section-text {
     margin-bottom: 62px;
@@ -645,14 +626,13 @@ summary {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 @media screen and (min-width: 1200px) {
   .soc-media-logo {
     margin-bottom: 30px;
   }
 }
 
-.products-media-link {
+.products-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -675,7 +655,6 @@ summary {
   height: 40px;
   margin-left: 80px;
 }
-
 @media screen and (min-width: 1200px) {
   .products-media-link-right {
     margin-left: 100px;
@@ -690,7 +669,6 @@ summary {
   display: -ms-flexbox;
   display: flex;
 }
-
 @media screen and (min-width: 768px) {
   .products-thumb {
     width: 220px;
@@ -698,7 +676,6 @@ summary {
     right: 0;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .products-thumb {
     width: 330px;
@@ -717,14 +694,12 @@ summary {
   color: #FFA5BA;
   margin-bottom: 15px;
 }
-
 @media screen and (min-width: 768px) {
   .products-title h2 {
     font-size: 26px;
     line-height: 30px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .products-title h2 {
     font-size: 30px;
@@ -744,19 +719,16 @@ summary {
   color: #D41443;
   margin-bottom: 144px;
 }
-
 @media screen and (min-width: 768px) {
   .products-title h1 {
     font-size: 48px;
     line-height: 55px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .products-title h1 {
     font-size: 58px;
     line-height: 66px;
     margin-bottom: 259px;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
